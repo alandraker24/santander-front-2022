@@ -1,19 +1,58 @@
 body {
     background-color: #fffbf7;
 }
-
 h1 {
     color: #025686;
     text-align: center;
 }
-
 p {
     color: #8b8b8bcc;
     font-family: Verdana;
     font-size: 20px;
 }
-
 button {
     color: #fff;
     background-color: #025686;
+}
+
+.header {
+    margin-top: 40px;
+    margin-left: 20px;
+    margin-right: 20px;
+    font-size: 0; /*Que el tam de fuente de header sea 0*/
+}
+
+li {
+    display: inline;
+}
+
+/* Que todo lo que tenga header aplicar este inline */
+.header > * {   
+    display: inline-block;
+    font-size: 16px; /*Que los hijos de header tengan 16px de tam fuente*/
+    line-height: 45px; 
+    height: 100%; 
+    vertical-align: middle;
+}
+/* Se reduce el tamaño del contenedor etiqueta a*/
+.logo {
+    width: 15%;
+}
+/*a la etiqueta hija de logo img*/
+.logo > img {  
+    width: 15%;
+}
+
+.navbar {
+    width: 70%;
+    text-align: center;
+    color: #025157;
+    font-weight: 500;
+}
+
+.actions {
+    width: 15;
+    text-align: right;
+    font-size: 14px;
+    font-weight: 600;
 }
