@@ -16,9 +16,8 @@ button {
 }
 
 .header {
-    margin-top: 40px;
-    margin-left: 20px;
-    margin-right: 20px;
+    margin: 40px 20px 0;
+  
     font-size: 0; /*Que el tam de fuente de header sea 0*/
 }
 
@@ -55,4 +54,9 @@ li {
     text-align: right;
     font-size: 14px;
     font-weight: 600;
+}
+
+.main {
+    margin-top: 140px;
+    text-align: center;
 }
