@@ -4,6 +4,7 @@ body {
 h1 {
     color: #025686;
     text-align: center;
+    font-family: prompt, sans-serif;
 }
 p {
     color: #8b8b8bcc;
@@ -24,7 +25,7 @@ button {
 
 li {
     display: inline;
-    margin: 0 25px 0;
+    margin: 0 25px;
     color: #025157;
 }
 /* Que todo lo que tenga header aplicar este inline */
@@ -54,8 +55,8 @@ li {
     font-weight: 600;
   
 }
-.actions > * {
-    margin: 0px 10px 0;
+.actions > * {  /* cada uno de los hijos de actions va a tener separacion de 10px izq der*/
+    margin: 0px 10px;
 }
 .actions > a {
     color: #67b54b;
@@ -63,9 +64,9 @@ li {
 .actions > button {
     background-color: #67b54b;
     color: #fff;
-    padding: 12px 14px 12px;
+    padding: 12px 14px;
     border: 0;
-    border-radius: 5%;
+    border-radius: 5px;
 }
 .main {
     margin-top: 140px;
