@@ -36,31 +36,37 @@ li {
     height: 100%; 
     vertical-align: middle;
 }
+
 .logo {         /* Se reduce el tamaño del contenedor etiqueta a*/
     width: 15%;
 }
+
 .logo > img {   /*a la etiqueta hija de logo img*/
     width: 25%;
 }
+
 .navbar {
     width: 70%;
     text-align: left;
     color: #025157;
     font-weight: 500;
 }
+
 .actions {
     width: 15%;
     text-align: left;
     font-size: 14px;
     font-weight: 600;
-  
 }
+
 .actions > * {  /* cada uno de los hijos de actions va a tener separacion de 10px izq der*/
     margin: 0px 10px;
 }
+
 .actions > a {
     color: #67b54b;
 }
+
 .actions > button {
     background-color: #67b54b;
     color: #fff;
@@ -68,6 +74,7 @@ li {
     border: 0;
     border-radius: 5px;
 }
+
 .main {
     margin-top: 285px;
     text-align: center;
@@ -81,3 +88,49 @@ li {
     right: 0;
     background-color: #fffbf7;
 }
+
+
+.promo {
+    display: flex;
+    width: 70%;
+    margin: 100px auto;
+    align-items: center;
+}
+
+.publish { /*container styles */
+    margin-left: 30px;
+}
+
+.publish h3 {
+    font-family: "Alegreya", serif;
+    font-size: 40px;
+    line-height: 48px;
+    color: #025157;
+  }
+  
+  .publish > p {
+    font-size: 16px;
+    color: #343434;
+    line-height: 1.5;
+    margin-bottom: 20px;
+  }
+  
+  .publish > form {
+    display: flex;
+  }
+  
+  .publish > form p {
+    color: #025157;
+    margin-right: 18px;
+  }
+
+  .contenedor {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .contenedor img {
+      width: 120px;
+      margin-top: 10px;
+  }
