@@ -134,3 +134,8 @@ li {
       width: 120px;
       margin-top: 10px;
   }
+
+  .features {
+      display: grid;
+      grid-template-columns: 600px 1fr;
+  }
