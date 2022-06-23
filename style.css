@@ -6,7 +6,8 @@ h1 {
     text-align: center;
     font-family: prompt, sans-serif;
 }
-p {
+
+.main > p {
     color: #8b8b8bcc;
     font-family: Verdana;
     font-size: 20px;
@@ -135,7 +136,38 @@ li {
       margin-top: 10px;
   }
 
-  .features {
-      display: grid;
-      grid-template-columns: 600px 1fr;
-  }
+  .features{
+    display: grid;
+    background-color:cadetblue;
+    grid-template: repeat(2, 330px) / repeat(2, 1fr);
+
+}
+
+.features > article {
+    background-color: white;
+    border-radius: 25px;
+    margin: 20px;
+}
+
+.features > article:hover {
+    background-color: rgb(26, 26, 26);   
+}
+
+.article {
+    margin: 25px;
+    display: flex;
+    flex-direction: row;
+}
+
+.contenido {
+    width: 60%;
+    text-align: left;
+    font-size: 14px;
+    color: gray;
+}
+
+.imagen {
+    width: 40%;
+    text-align: right;
+    
+}
