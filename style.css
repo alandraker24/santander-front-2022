@@ -187,8 +187,9 @@ li {
   .main {
     margin-top: 100px;
   }
-  .banner{  /*img capterra tendra un 100% del tam d dispositivo*/
+  .banner > img {  /*img capterra tendra un 100% del tam d dispositivo*/
     width: 100%;
+    
   }
   .publish > form{ /*s5 reto 3*/
     flex-direction: column;
@@ -204,6 +205,9 @@ li {
     flex-direction: column;
     max-width: 90%;
   }
+  .explanatory-video > video {
+    width: 100%;
+  }
   .publish {
     margin-top: 10px;
   }
@@ -211,7 +215,12 @@ li {
     font-size: 25px;
     line-height: 1.2;
   }
-
+  .features { /*4 filas 1 columna*/
+    grid-template: repeat(4, 1fr) / repeat(1, 1fr);
+  }
+  .article > div > img { 
+    display: none;
+  }
 }
 
 /* dispositivos pequeños en vista landscape (horizontal)*/
