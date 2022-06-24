@@ -187,11 +187,25 @@ li {
   .main {
     margin-top: 100px;
   }
+  .banner{  /*img capterra tendra un 100% del tam d dispositivo*/
+    width: 100%;
+  }
+  .publish > form{
+    flex-direction: column;
+  }
+  .publish > form > div {
+    height: 50px;
+    margin-top: 10px;
+  }
+  .publish > form > div > input {
+    width: 65%;
+  }
+  
 }
 
 /* dispositivos pequeños en vista landscape (horizontal)*/
 @media (min-width: 576) and (max-width: 767px){
-
+  
 }
 
 /* */
