@@ -184,6 +184,9 @@ li {
   h1 {
     font-size: 30px;
   }
+  .main {
+    margin-top: 100px;
+  }
 }
 
 /* dispositivos pequeños en vista landscape (horizontal)*/
