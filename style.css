@@ -1,7 +1,10 @@
+
+
 body {
     background-color: #fffbf7;
 }
 h1 {
+    font-size: 60px;
     color: #025686;
     text-align: center;
     font-family: prompt, sans-serif;
@@ -171,3 +174,21 @@ li {
     text-align: right;
     
 }
+
+/*dispositivos moviles en vista  viewport (vertical) */
+@media (max-width: 575px) {
+  .navbar, 
+  .actions {
+    display: none;
+  }
+  h1 {
+    font-size: 30px;
+  }
+}
+
+/* dispositivos pequeños en vista landscape (horizontal)*/
+@media (min-width: 576) and (max-width: 767px){
+
+}
+
+/* */
