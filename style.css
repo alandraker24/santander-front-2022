@@ -190,7 +190,7 @@ li {
   .banner{  /*img capterra tendra un 100% del tam d dispositivo*/
     width: 100%;
   }
-  .publish > form{
+  .publish > form{ /*s5 reto 3*/
     flex-direction: column;
   }
   .publish > form > div {
@@ -200,7 +200,18 @@ li {
   .publish > form > div > input {
     width: 65%;
   }
-  
+  .promo {
+    flex-direction: column;
+    max-width: 90%;
+  }
+  .publish {
+    margin-top: 10px;
+  }
+  .publish > h3 {
+    font-size: 25px;
+    line-height: 1.2;
+  }
+
 }
 
 /* dispositivos pequeños en vista landscape (horizontal)*/
