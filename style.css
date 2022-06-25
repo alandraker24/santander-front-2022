@@ -49,12 +49,14 @@ li {
     width: 25%;
 }
 
-.navbar {
+.navbar-expand-lg {
     width: 70%;
     text-align: left;
     color: #025157;
     font-weight: 500;
 }
+
+
 
 .actions {
     width: 15%;
@@ -217,6 +219,7 @@ li {
   }
   .features { /*4 filas 1 columna*/
     grid-template: repeat(4, 1fr) / repeat(1, 1fr);
+    height: 100%;
   }
   .article > div > img { 
     display: none;
