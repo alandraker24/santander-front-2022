@@ -1,30 +1,32 @@
 
-
 body {
     background-color: #fffbf7;
 }
+
 h1 {
-    font-size: 60px;
-    color: #025686;
+    font-size: 40px;
+    color: #025157;
     text-align: center;
     font-family: prompt, sans-serif;
 }
 
-.main > p {
+p {
     color: #8b8b8bcc;
+    text-align: center;
     font-family: Verdana;
-    font-size: 20px;
+    font-size: 18px;
 }
+
 button {
-    color: #fff;
-    background-color: #025686;
+  color: #fff;
+  background-color: #025157;
 }
 
 .header {
-    margin: 40px 20px 0;
-    font-size: 0; /*Que el tam de fuente de header sea 0*/
-    font-family: sans-serif;
-    height: 45px;
+  margin: 40px 20px 0;
+  font-size: 0; /*Que el tam de fuente de header sea 0*/
+  font-family: sans-serif;
+  height: 45px;
 }
 
 li {
@@ -32,6 +34,16 @@ li {
     margin: 0 25px;
     color: #025157;
 }
+
+.fixed-header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  background-color: #fffbf7;
+  z-index: 1030;
+}
+
 /* Que todo lo que tenga header aplicar este inline */
 .header > * {   
     display: inline-block;
@@ -49,18 +61,16 @@ li {
     width: 25%;
 }
 
-.navbar-expand-lg {
-    width: 70%;
-    text-align: left;
+.navbar {
+    /* width: 70%; */
+    text-align: center;
     color: #025157;
     font-weight: 500;
 }
 
-
-
 .actions {
-    width: 15%;
-    text-align: left;
+    /* width: 15%; */
+    text-align: center;
     font-size: 14px;
     font-weight: 600;
 }
@@ -69,11 +79,11 @@ li {
     margin: 0px 10px;
 }
 
-.actions > a {
+.actions a {
     color: #67b54b;
 }
 
-.actions > button {
+.actions button {
     background-color: #67b54b;
     color: #fff;
     padding: 12px 14px;
@@ -82,19 +92,46 @@ li {
 }
 
 .main {
-    margin-top: 285px;
+    margin-top: 140px;
     text-align: center;
 
 }
 
-.fixed-header {
-    position: fixed;
-    top: 0;
-    left: 0;
-    right: 0;
-    background-color: #fffbf7;
+.banner1 img {
+  width: 50%;
+}
+.banner2 img {
+  width: 70%;
 }
 
+.publish { /*container styles */
+  margin-left: 30px;
+}
+
+.publish h3 {
+  font-family: "prompt", serif;
+  font-size: 30px;
+  line-height: 48px;
+  color: #025157;
+}
+
+.publish p {
+  font-size: 14px;
+  color: #343434;
+  line-height: 1.5;
+  margin-bottom: 20px;
+  text-align: justify;
+}
+
+.publish > form {
+  display: flex;
+  flex-direction: row;
+}
+
+.publish > form p {
+  color: #025157;
+  margin-right: 18px;
+}
 
 .promo {
     display: flex;
@@ -103,34 +140,20 @@ li {
     align-items: center;
 }
 
-.publish { /*container styles */
-    margin-left: 30px;
+.explanatory-video {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 13%;
 }
 
-.publish h3 {
-    font-family: "Alegreya", serif;
-    font-size: 40px;
-    line-height: 48px;
-    color: #025157;
-  }
-  
-  .publish > p {
-    font-size: 16px;
-    color: #343434;
-    line-height: 1.5;
-    margin-bottom: 20px;
-  }
-  
-  .publish > form {
-    display: flex;
-  }
-  
-  .publish > form p {
-    color: #025157;
-    margin-right: 18px;
-  }
+.explanatory-video img {
+  width: 120px;
+  margin-top: 10px;
+} 
 
-  .contenedor {
+ 
+.contenedor {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -143,7 +166,7 @@ li {
 
   .features{
     display: grid;
-    background-color:cadetblue;
+    background-color: #025157;
     grid-template: repeat(2, 330px) / repeat(2, 1fr);
 
 }
@@ -155,7 +178,8 @@ li {
 }
 
 .features > article:hover {
-    background-color: rgb(26, 26, 26);   
+    background-color: #000000;   
+    color: #fff;
 }
 
 .article {
@@ -168,7 +192,20 @@ li {
     width: 60%;
     text-align: left;
     font-size: 14px;
-    color: gray;
+    
+}
+.contenido p {
+  font-size: 100%;
+  text-align: justify;
+  color: gray;
+}
+.contenido a {
+  border: none;
+  color: #a1d683;
+  text-align: left;
+  font-weight: 550;
+  text-decoration: none;
+
 }
 
 .imagen {
@@ -207,9 +244,10 @@ li {
     flex-direction: column;
     max-width: 90%;
   }
-  .explanatory-video > video {
-    width: 100%;
-  }
+  .explanatory-video {
+    margin-top: 10px;
+  } 
+
   .publish {
     margin-top: 10px;
   }
