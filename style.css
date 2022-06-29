@@ -292,7 +292,7 @@ li {
   font-weight: 600;
   line-height: 20px;
   margin-bottom: 12px;
-  font-family: "Slabo 27px", serif;
+ 
 }
 
 .success-stories .card .card-body h3 {
@@ -361,7 +361,13 @@ li {
   width: 100%;
 }
 
+.card p {
+  font-size: 1rem;
+}
 
+.card-body {
+  text-align: left;
+}
 
 /*dispositivos moviles en vista  viewport (vertical) */
 @media (max-width: 575px) {
