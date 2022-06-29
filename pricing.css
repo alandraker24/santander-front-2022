@@ -12,6 +12,15 @@ h1 {
     font-family: "Alegreya", serif;
     font-size: 60px;
     margin-bottom: 24px;
+    text-align: center;
+}
+
+P {
+    color: #8b8b8bcc;
+    text-align: center;
+    font-family: Verdana;
+    font-size: 18px;
+    text-align: center;
 }
 
 .header p {
