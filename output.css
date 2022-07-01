@@ -44,5 +44,36 @@
   width: 180px;
   margin-bottom: 15px;
 }
+.blog .card .card-body > h5 {
+  color: #4a4a4a;
+}
+.blog .card .card-body .metadata {
+  font-size: 14px;
+}
+.blog .card .card-body .metadata .category {
+  color: #67b54b;
+}
+.blog .card .card-body .metadata .readtime {
+  color: #979797;
+}
+.blog .card .card-body .card-text {
+  color: #4a4a4a;
+}
+.blog .card .card-body .card-text .read-more > a {
+  text-decoration: underline;
+}
+.blog .card .card-body .author > p {
+  color: #4a4a4a;
+  margin-left: 8px;
+  font-size: 14px;
+  margin-top: 15px;
+}
+.blog .card .card-body .author > img {
+  border-radius: 50%;
+  width: 35px;
+  height: 35px;
+  vertical-align: middle;
+  border-style: none;
+}
 
 /*# sourceMappingURL=output.css.map */
