@@ -30,6 +30,14 @@ P {
     margin-bottom: 72px;
 }
 
+.header > * {
+    display: inline-block;
+    font-size: 16px; /*Que los hijos de header tengan 16px de tam fuente*/
+    line-height: 45px; 
+    height: 100%; 
+    vertical-align: middle;
+}
+
 main {
     margin-top: 285px;
     text-align: center;
@@ -50,6 +58,8 @@ body {
 
 .navbar {
     background-color: #fffbf7;
+    font-weight: 500;
+    
 }
 
 .navbar-light .nav-item .nav-link {
@@ -113,4 +123,24 @@ body {
   
   .faq .card .card-body a {
     color: #6abf4b;
+  }
+
+  @media (max-width: 575px) {
+    .container {
+        display: flex;
+    }
+
+    .container .row {
+        flex-direction: column;
+    }
+    main{
+        margin-top: 130px;
+        padding: 5%;
+    }
+    h1{
+        font-size: 30px;
+    }
+    .logo{
+        width: 40%;
+    }
   }
