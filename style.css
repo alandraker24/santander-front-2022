@@ -12,14 +12,14 @@ h1 {
     font-size: 40px;
     color: #025157;
     text-align: center;
-    font-family: prompt, sans-serif;
+    font-family: Prompt, sans-serif;
 }
 
 p {
     color: #8b8b8bcc;
     text-align: center;
-    font-family: Verdana;
     font-size: 18px;
+    font-family: Nunito, Verdana;
 }
 
 button {
